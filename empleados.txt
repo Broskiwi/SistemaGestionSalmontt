@@ -1,0 +1,5 @@
+98.765.432-1,Pepe Cortisona,Chambeador-001,Administrador de Jefes,Finanzas,Calle Verdadera 321,Llelotipehue,Región de Los Ríos
+11.222.333-4,Yayita,Chambeador-002,Analista de Salmones,Control de Calidad,Calle Dubai 987,Puerto Varas,Región de Los Lagos
+22.333.444-5,Don Chuma,Chambeador-003,Supervisor de Cultivo,Producción,Av. Costanera 500,Castro,Región de Los Lagos
+33.444.555-6,Cuasimodo,Chambeador-004,Técnico de Mantención,Operaciones,Pasaje Los Alerces 45,Ancud,Región de Los Lagos
+44.555.666-7,Tremebundo,Chambeador-005,Analista de Exportaciones,Logística,Calle Quellón 890,Quellón,Región de Los Lagos
