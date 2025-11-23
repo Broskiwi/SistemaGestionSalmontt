@@ -1,5 +1,5 @@
 ![Duoc UC](https://www.duoc.cl/wp-content/uploads/2022/09/logo-0.png)
-# 🧠 Evaluación Sumativa 1 – Desarrollo Orientado a Objetos I
+# 🧠 Evaluación Sumativa 2 – Desarrollo Orientado a Objetos I
 
 ## 👤 Autor del proyecto
 - **Nombre completo:** Ignacio Andrés Ibáñez Fariña
@@ -10,34 +10,48 @@
 ---
 
 ## 📘 Descripción general del sistema
-Este proyecto corresponde a la Sumativa 1 de la asignatura *Desarrollo Orientado a Objetos I*. Implementa un modelo orientado a objetos que representa personas, empleados y direcciones, cuyo objetivo es modelar y gestionar entidades representativas de un dominio real, aplicando los principios de encapsulamiento, herencia y composición.
+Sistema de Gestión de Personal para la empresa salmonera Salmontt (Puerto Montt, Chile).
 
-El proyecto fue desarrollado a partir de un caso contextualizado, abordando problemáticas reales y proponiendo una solución estructurada, modular y reutilizable.
+Versión 1.0: Modelo básico con clases Persona, Empleado y Direccion aplicando encapsulamiento, herencia y composición.
+
+Versión 2.0 (actual): Sistema completo que carga empleados desde archivo, permite búsquedas por RUT y departamento, usa colecciones (ArrayList) y maneja excepciones.
 
 ---
 
 ## 🧱 Estructura general del proyecto
 
 ```plaintext
-📁 src/
-│   ├── app/
-│   │   └── Main.java           # Clase principal para ejecutar el sistema
-│   │
-│   └── model/
-│       ├── Persona.java         # Clase base que representa a una persona
-│       ├── Empleado.java        # Clase que hereda de Persona
-│       └── Direccion.java       # Clase para gestionar direcciones
+📁 SistemaGestionSalmontt/
 │
-└── README.md
+├── 📁 src/
+│   ├── 📁 app/
+│   │   └── Main.java              # Clase principal
+│   │
+│   ├── 📁 model/
+│   │   ├── Persona.java           # Clase base
+│   │   ├── Empleado.java          # Hereda de Persona
+│   │   └── Direccion.java         # Gestión de direcciones
+│   │
+│   ├── 📁 service/
+│   │   └── GestorEmpleados.java   # Búsquedas y filtros
+│   │
+│   └── 📁 util/
+│       └── LectorDeArchivos.java  # Lectura de archivos
+│
+├── 📄 empleados.txt
+└── 📄 README.md
 ````
 ---
 
 **Repositorio GitHub:** \https://github.com/Broskiwi/SistemaGestionSalmontt.git
-**Fecha de entrega:** \09-11-2025
+**Fecha de entrega:**
+
+Sumativa 1 (v1.0): 09-11-2025
+Sumativa 2 (v2.0): 23-11-2025
 
 ---
 
-© Duoc UC | Escuela de Informática y Telecomunicaciones | Sumativa 1
+© Duoc UC | Escuela de Informática y Telecomunicaciones
 
 
 
