@@ -43,6 +43,18 @@ Versión 2.0 (actual): Sistema completo que carga empleados desde archivo, permi
 ````
 ---
 
+⚙️ Instrucciones para clonar y ejecutar el proyecto
+1. Clona el repositorio desde GitHub:
+git clone https://github.com/Broskiwi/SistemaGestionSalmontt.git
+2. Abre el proyecto en IntelliJ IDEA.
+
+3. Verifica que los archivos .txt estén correctamente ubicados.
+
+4. Ejecuta el archivo Main.java desde el paquete app.
+
+5. Sigue las instrucciones en consola o en la interfaz gráfica (si corresponde).
+
+---
 **Repositorio GitHub:** \https://github.com/Broskiwi/SistemaGestionSalmontt.git
 **Fecha de entrega:**
 
