@@ -1,6 +1,6 @@
 package model;
 
-public class Empleado extends Persona {
+public class Empleado extends Persona implements Registrable{
     //Atributos
     private String numeroEmpleado;
     private String cargo;
@@ -8,6 +8,13 @@ public class Empleado extends Persona {
 
     //Constructor
     public Empleado() {
+    }
+
+    public Empleado(String rut, String nombre, Direccion direccion, String numeroEmpleado, String cargo, String departamento) {
+        super(rut, nombre, direccion);
+        this.numeroEmpleado = numeroEmpleado;
+        this.cargo = cargo;
+        this.departamento = departamento;
     }
 
     //Getters y Setters
@@ -33,6 +40,23 @@ public class Empleado extends Persona {
 
     public void setDepartamento(String departamento) {
         this.departamento = departamento;
+    }
+
+    @Override
+    public void mostrarResumen() {
+        System.out.println("======================");
+        System.out.println("EMPLEADO");
+        System.out.println("RUT: " + getRut());
+        System.out.println("Nombre: " + getNombre());
+        System.out.println("N° Empleado: " + numeroEmpleado);
+        System.out.println("Cargo: " + cargo);
+        System.out.println("Departamento " + departamento);
+        System.out.println("======================");
+    }
+
+    @Override
+    public String getIdentificador() {
+        return numeroEmpleado;
     }
 
     //Representación en texto de los datos del empleado

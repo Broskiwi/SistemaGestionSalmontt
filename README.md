@@ -24,7 +24,7 @@ Versión 2.0 (actual): Sistema completo que carga empleados desde archivo, permi
 📁 SistemaGestionSalmontt/
 │
 ├── 📁 src/
-│   ├── 📁 app/
+│   ├── 📁 ui/
 │   │   └── Main.java              # Clase principal
 │   │
 │   ├── 📁 model/
@@ -32,7 +32,7 @@ Versión 2.0 (actual): Sistema completo que carga empleados desde archivo, permi
 │   │   ├── Empleado.java          # Hereda de Persona
 │   │   └── Direccion.java         # Gestión de direcciones
 │   │
-│   ├── 📁 service/
+│   ├── 📁 data/
 │   │   └── GestorEmpleados.java   # Búsquedas y filtros
 │   │
 │   └── 📁 util/
@@ -50,7 +50,7 @@ git clone https://github.com/Broskiwi/SistemaGestionSalmontt.git
 
 3. Verifica que los archivos .txt estén correctamente ubicados.
 
-4. Ejecuta el archivo Main.java desde el paquete app.
+4. Ejecuta el archivo Main.java desde el paquete ui.
 
 5. Sigue las instrucciones en consola o en la interfaz gráfica (si corresponde).
 

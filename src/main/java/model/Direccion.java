@@ -10,6 +10,12 @@ public class Direccion {
     public Direccion() {
     }
 
+    public Direccion(String calle, String ciudad, String region) {
+        this.calle = calle;
+        this.ciudad = ciudad;
+        this.region = region;
+    }
+
     //Getters y Setters
     public String getCalle() {
         return calle;
