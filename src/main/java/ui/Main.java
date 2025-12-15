@@ -9,7 +9,7 @@ import model.Registrable;
 import javax.swing.*;
 
 /**
- * Clase principal del Sistema de Gestión Salmontt v2.0
+ * Clase principal del Sistema de Gestión Salmontt v3.0
  */
 public class Main {
     private static GestorEntidades gestor = new GestorEntidades();
